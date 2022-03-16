@@ -1,0 +1,102 @@
+body {
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Red Hat Display', sans-serif;
+    background-color: hsl(225, 100%, 94%);
+    background-image: url(../images/pattern-background-desktop.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container {
+    width: 430px;
+    margin: 50px auto;
+    border-radius: 15px;
+    overflow: hidden;
+    background-color: white;
+}
+.container img {
+    max-width: 100%;
+}
+.container .text1 {
+    text-align: center;
+}
+.container .text1 h2 {
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+    font-size: 27px;
+}
+.container .text1 > p {
+    color: hsl(224, 23%, 55%);
+    line-height: 1.6;
+    font-size: 17px;
+}
+.container .cont {
+    padding-right: 50px;
+    padding-left: 50px;
+}
+.container .plan {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 15px;
+    min-height: 100px;
+}
+.container .plan .sec {
+    display: flex;
+    align-items: center;
+}
+.container .plan .sec img {
+    right: 15px;
+    position: relative;
+}
+.container .plan .sec .text {
+    line-height: 0.7;
+}
+.container .plan .sec .text p:first-of-type {
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+}
+.container .plan .sec .text p:last-of-type {
+    color: hsl(224, 23%, 55%);
+}
+.container .plan > a {
+    color: hsl(245, 75%, 52%);
+    transition: 0.3s;
+    font-weight: 700;
+}
+.container .plan > a:hover {
+    text-decoration: none;
+    color: hsl(245deg 75% 52% / 70%);
+    
+}
+.container .second-a  {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    background-color: hsl(245, 75%, 52%);
+    margin-top: 40px;
+    padding: 15px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+    transition: 0.3s;
+}
+.container .second-a:hover {
+    background-color: hsl(245deg 75% 52% / 70%);
+}
+.container .third-a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    margin: 30px auto;
+    border-radius: 10px;
+    color: hsl(224, 23%, 55%);
+    font-weight: 900;
+    font-size: 15px;
+    transition: 0.3s;
+}
+.container .third-a:hover {
+    color: hsl(223, 47%, 23%);
+}
